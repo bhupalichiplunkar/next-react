@@ -1,0 +1,31 @@
+{
+  "name": "next-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "next start -p $PORT"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/bhupali14/next-react.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/bhupali14/next-react/issues"
+  },
+  "homepage": "https://gitlab.com/bhupali14/next-react#README",
+  "dependencies": {
+    "express": "^4.15.5",
+    "isomorphic-unfetch": "^2.0.0",
+    "next": "^3.2.2",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-markdown": "^2.5.0"
+  }
+}
